@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OriginSix</title>
 
+    <link rel="stylesheet" href="assets/fonts/style.css">
+
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -16,7 +18,19 @@
     <header id="header">
         <nav class="container">
             <a class="logo" href="#">beauty<span>salon</span>.</a>
-            <div class="menu" >...</div>
+            <div class="menu" >
+                <ul class="grid">
+                    <li><a class="title" href="#home">Início</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contacte">Contatos</a></li>
+                </ul>
+            </div>
+            
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
+
         </nav>
     </header>
 
@@ -29,7 +43,7 @@
                     />
                 </div>
                 <div class="text">
-                    <h1>Saúde natural para seus cabelos</h1>
+                    <h2 class="title">Saúde natural para seus cabelos</h2>
                     <p>Um salão exclusivo em Cuiabá, especializado em tratamentos naturaiis.</p>
                     <a class="button" href="#">Agendar um horário</a>
                 </div>
@@ -38,11 +52,58 @@
 
         <div class="divider-1"></div>
         
-        <section class="section">
-            <div class="container">
-                section
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="3 mulheres sorrindo"
+                    />
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eaque provident a temporibus ratione, nihil eligendi unde. Veritatis perferendis fuga ipsum, in deleniti ab dolore modi? Id beatae provident sed.</p></br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla beatae facere, dolorum quis ratione ullam cumque accusantium libero atque aut recusandae reiciendis dignissimos id itaque deserunt dicta dolor ipsum dolores.</p></br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat eligendi omnis, hic eius ratione commodi fuga velit magni? Ab, dolor facilis. Eos aut vitae accusantium nesciunt esse itaque ipsum ipsa?</p></br>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider-2"></div>
+
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p>
+                        Com mais de 10 anos no mercado, o <strong>BeautySalon</strong> já conquistou clientes de inúmeros países cin seus tratamentos exclusivos e totalmente naturais.
+                    </p>
+                </header>
+                <div class="cards grid">
+                    <div class="card">
+                        <i class="icon-woman-hair"></i>
+                        <h3 class="title">Terapia Capilar</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, vitae dignissimos doloribus ea at, ducimus assumenda commodi accusantium asperiores dolorum quas, fugiat adipisci temporibus enim voluptatem libero tempora nesciunt veritatis.
+                        </p>
+                    </div>                
+                    <div class="card">
+                        <i class="icon-trim"></i>
+                        <h3 class="title">Cortes</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem maiores magnam corrupti consequuntur explicabo voluptas odio modi ut, provident doloribus ducimus rem tempore, atque unde vero voluptatibus placeat illo eos.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-cosmetic"></i>
+                        <h3 class="title">Tratamentos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequuntur consequatur nobis iste explicabo! Quasi delectus repudiandae totam, itaque iure vero molestias distinctio nihil dolore temporibus qui alias obcaecati fuga!
+                        </p>
+                    </div>               
+                </div>
             </div>
         </section>
     </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
